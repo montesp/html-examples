@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar con diseño</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a href="" class="navbar-brand">My first Bootstrap Page</a>
+        <button class="navbar-toggler collapse" type="button" 
+                data-toggle="collapse" data-target="#navbar1"
+                aria-controls="navbar1"
+                aria-expanded="false"
+                aria-label="Toggle Navigation">
+        <span class="navbar-toggle-icon"></span>
+    </button>
+        <div class="navbar-collpase collapse" id="navbar1">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" 
+                                data-toggle="dropdown"
+                                role="button" aria-haspopup="true"
+                                aria-expanded="false">Dropdown Options
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Action</a>
+                        <a href="#" class="dropdown-item">Another Action</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">Seperated Link</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <script src="./js/jquery.js"></script>
+</body>
+</html>
